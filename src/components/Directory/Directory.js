@@ -7,7 +7,7 @@ const Directory = () => {
     const [filterSelectedLetter, setFilterSelectedLetter] = useState(null);
 
     useEffect(() => {
-        fetch('/data.json') // Ensure this path is correct for your setup
+        fetch('https://chaitusai01.github.io/fe-assessment-frontend/data.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
