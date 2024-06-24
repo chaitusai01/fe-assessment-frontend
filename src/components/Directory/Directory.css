@@ -1,0 +1,104 @@
+.directory-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-alphabet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+.header-alphabet-content{
+    display: ruby;
+}
+
+.header-alphabet-content h1{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: .5%;
+    color: #333333;
+}
+
+.alphabet-links {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.alphabet-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #3d73cc;
+    font-size: 18px;
+}
+
+.alphabet-links a.available {
+    color: #3d73cc;
+  }
+  
+  .alphabet-links a.unavailable {
+    color: #adbfcd;
+  }
+
+.directory-content {
+    background-color: white;
+    padding-left: 1%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+.directory-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.letter-group {
+    margin-bottom: 0px;
+}
+
+.letter-group h2 {
+    font-size: 22px;
+    margin-bottom: .5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0%;
+}
+
+.letter-group h2:after {
+    content: "";
+    display: block;
+    width: 5%;
+    height: 2px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.letter-group ul {
+    list-style: none;
+    padding: 0px;
+    columns: 2;
+    margin-top: 0%;
+    margin-bottom: 0.5%;
+}
+
+.letter-group li {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.letter-group li a {
+    text-decoration: none;
+    color: #3d73cc;
+}
